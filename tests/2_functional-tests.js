@@ -58,7 +58,7 @@ suite("Functional Tests", function () {
           assert.equal(res.body.name, 'Giovanni', 'res.body.name should be "Giovanni"');
           assert.equal(res.body.surname, 'da Verrazzano', 'res.body.surname should be "da Verrazzano"');
       
-        done();
+          done();
         });
     });
   });
